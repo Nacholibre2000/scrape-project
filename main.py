@@ -5,6 +5,7 @@ url = "https://www.skolverket.se/undervisning/grundskolan/laroplan-och-kursplane
 
 result = requests.get(url)
 soup = BeautifulSoup(result.text, "html.parser")
-coursedetails = soup.find_all(text="class=course-details")
+coursedetails = soup.find_all("div", {"class": "course-details"})
 
 print(coursedetails)
+#print(soup)
