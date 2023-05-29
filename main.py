@@ -5,7 +5,30 @@ url = "https://www.skolverket.se/undervisning/grundskolan/laroplan-och-kursplane
 
 result = requests.get(url)
 soup = BeautifulSoup(result.text, "html.parser")
-coursedetails = soup.find_all("div", {"class": "course-details"})
+#subsection = soup.find_all('h4', class_="c12638") # to find subsection
 
-print(coursedetails)
+central_content = soup.find_all('section', class_="courses-wrapper")
+
+for ul in central_content:
+  subsection, central_content = 
+  print(subsection.ul)
+  print(central_content.li)
+
+## OLDS
+
+#coursedetails = soup.find_all("div", {"class": "course-details"})
+
+#subsection = soup.find_all('h4', class_="c12638") # to find subsection
+#print(subsection) # to find subsection
+
+
+#<h3 class="c12638"> Är årskurs
+#<h4 class="c12638"> Är subsection
+#<li> Är alla centrala innehåll
+#grades = coursedetails.find_all("h3", {"class": "c12638"})
+
+#print(coursedetails)
 #print(soup)
+
+#grade = soup.find_all('h3', class_="c12638") # to find grade
+# print(grade) # to find grade
