@@ -16,12 +16,14 @@ central_contents = result.find('section')
 course_requirements = central_contents.find_next_sibling('section')
 
 # Dictionaries to store data
+subject_data ={}
 grade_data = {}
 subsection_data = {}
 central_content_data = {}
 central_requirement_data = {}
 
 # Keeping track of ids
+subject_id = 1
 grade_id = 1
 subsection_id = 1
 central_content_id = 1
@@ -31,12 +33,28 @@ central_requirement_id = 1
 original_subsections = []
 original_sentences = []
 
+# find & id subject_data
+
+#svid12_5dfee44715d35a5cdfa219f
+subject_div = soup.find('div', class_="sv-proxy-portlet sv-portlet")
+header = subject_div.find('header')
+subject_name = header.find('h1')
+subject = subject_name.string
+
+if subject not in subject_data:
+    subject_data[subject] = subject_id
+    subject_id += 1
+
+# Get current subject ID for use in grade_data
+subject_id_current = subject_data[subject]
+
+# for-loop for central content
 for idx, central_contents_tags in enumerate(central_contents.find_all(
     'div', class_="course-details"),
                                             start=1):
   grade = central_contents_tags.find('h3').string
   if grade not in grade_data:
-    grade_data[grade] = grade_id
+    grade_data[grade] = (grade_id, subject_id_current)  # include subject_id_current as foreign key
     grade_id += 1
 
   grade_id_current = grade_data[grade]
@@ -67,6 +85,7 @@ for idx, central_contents_tags in enumerate(central_contents.find_all(
                                                  subsection_id_current)
         central_content_id += 1
 
+# for-loop for central requirement
 for idx, articles in enumerate(course_requirements.find_all('article'), start=1):
     grade = articles.find('h3').string
 
@@ -100,11 +119,17 @@ for idx, articles in enumerate(course_requirements.find_all('article'), start=1)
                 central_requirement_id += 1
 
 # Create and write to CSV files
+with open('subject_data.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["id", "subject"])
+    for key, value in subject_data.items():
+        writer.writerow([value, key])
+      
 with open('grade_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "grade"])
+  writer.writerow(["id", "grade", "foreign_id_subject"])  # add foreign_id_subject
   for key, value in grade_data.items():
-    writer.writerow([value, key])
+    writer.writerow([value[0], key, value[1]]) 
 
 with open('subsection_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
