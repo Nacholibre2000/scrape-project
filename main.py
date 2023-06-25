@@ -66,14 +66,15 @@ for url in urls:
     
     # for-loop for central content
     for idx, central_contents_tags in enumerate(central_contents.find_all(
-        'div', class_="course-details"),
-                                                start=1):
+    'div', class_="course-details"),
+                                            start=1):
       grade = central_contents_tags.find('h3').string
       if grade not in grade_data:
-        grade_data[grade] = grade_id 
+        grade_data[grade] = (grade_id, str(subject_id_current)
+                             )  # include subject_id_current as foreign key
         grade_id += 1
     
-      grade_id_current = grade_data[grade]
+      grade_id_current, foreign_id_grade = grade_data[grade]
     
       ul_tags = central_contents_tags.find_all('ul')
       for ul in ul_tags:
@@ -82,61 +83,65 @@ for url in urls:
           subsection = subsection.string
           # append grade if the subsection has been seen before
           if subsection in original_subsections:
-            print(f"subsection: {subsection}")
-            print(f"grade: {grade}")
-            if subsection is None:
-                subsection = "None Subsection"  # debug none subsection
             subsection = subsection + " (" + grade + ")"
           else:
             original_subsections.append(subsection)
     
           if subsection not in subsection_data:
-            subsection_data[subsection] = (subsection_id, grade_id_current)
+            foreign_id_subsection = foreign_id_grade + "-" + str(
+              grade_id_current)  # Update the foreign key here
+            subsection_data[subsection] = (subsection_id, foreign_id_subsection)
             subsection_id += 1
         else:
           print("No preceding h4 sibling found for ul.")
     
-        subsection_id_current = subsection_data[subsection][0]
+        subsection_id_current, foreign_id_subsection = subsection_data[subsection]
     
         for central_content in ul.find_all('li'):
           central_content = central_content.string
           if central_content not in central_content_data:
+            foreign_id_content = foreign_id_subsection + "-" + str(
+              subsection_id_current)  # Update the foreign key here
             central_content_data[central_content] = (central_content_id,
-                                                     subsection_id_current)
+                                                     foreign_id_content)
             central_content_id += 1
     
     # for-loop for central requirement
     for idx, articles in enumerate(course_requirements.find_all('article'), start=1):
-        grade = articles.find('h3').string
-    
-        if grade == "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3":
-            grade = "I årskurs 1–3"
-    
-        if grade == "Betygskriterier för slutet av årskurs 6":
-            grade = "I årskurs 4–6"
-    
-        if grade == "Betygskriterier för slutet av årskurs 9":
-            grade = "I årskurs 7–9"
-
-        if grade not in grade_data:
-          grade_data[grade] = grade_id
+      grade = articles.find('h3').string
+  
+      if grade == "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3":
+          grade = "I årskurs 1–3"
+  
+      if grade == "Betygskriterier för slutet av årskurs 6":
+          grade = "I årskurs 4–6"
+  
+      if grade == "Betygskriterier för slutet av årskurs 9":
+          grade = "I årskurs 7–9"
+  
+      foreign_id_grade = str(subject_id_current) + "-" + str(grade_id)  # Foreign key is subject ID + grade ID
+  
+      if grade not in grade_data:
+          grade_data[grade] = (grade_id, foreign_id_grade)  # include foreign_id_grade as foreign key
           grade_id += 1
   
-        grade_id_current = grade_data[grade]
-        
-        paragraphs = articles.find('div', class_="course-details").find_all('p')
-        for paragraph in paragraphs:
-            sentences = paragraph.get_text().split('. ')
-            for central_requirement in sentences:
-                # append grade if the sentence has been seen before
-                if central_requirement in original_sentences:
-                    central_requirement = central_requirement + "-" + grade
-                else:
-                    original_sentences.append(central_requirement)
-                    
-                if central_requirement not in central_requirement_data:
-                    central_requirement_data[central_requirement] = (central_requirement_id, grade_id_current)
-                    central_requirement_id += 1
+      grade_id_current, foreign_id_grade = grade_data[grade]
+  
+      paragraphs = articles.find('div', class_="course-details").find_all('p')
+      for paragraph in paragraphs:
+          sentences = paragraph.get_text().split('. ')
+          for central_requirement in sentences:
+              # append grade if the sentence has been seen before
+              if central_requirement in original_sentences:
+                  central_requirement = central_requirement + "-" + grade
+              else:
+                  original_sentences.append(central_requirement)
+  
+              foreign_id_requirement = foreign_id_grade + "-" + str(grade_id_current)  # Foreign key is grade foreign ID + grade ID
+  
+              if central_requirement not in central_requirement_data:
+                  central_requirement_data[central_requirement] = (central_requirement_id, foreign_id_requirement)
+                  central_requirement_id += 1
 
 # Create and write to CSV files
 with open('subject_data.csv', 'w', newline='') as file:
