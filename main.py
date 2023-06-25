@@ -42,7 +42,7 @@ for url in urls:
   # Get page content
   response = requests.get(url)
   page_content = response.content
-  print(page_content)
+  #print(page_content) #debug
 
   # Initialize BeautifulSoup for the new page
   soup = BeautifulSoup(page_content, "html.parser")
@@ -81,21 +81,23 @@ for url in urls:
     ul_tags = central_contents_tags.find_all('ul')
     for ul in ul_tags:
       subsection = ul.find_previous_sibling('h4')
-      if subsection:
-        subsection = subsection.string
-        # append grade if the subsection has been seen before
-        if subsection in original_subsections:
-          subsection = subsection + " (" + grade + ")"
-        else:
-          original_subsections.append(subsection)
-
-        if subsection not in subsection_data:
-          foreign_id_subsection = foreign_id_grade + "-" + str(
-            grade_id_current)  # Update the foreign key here
-          subsection_data[subsection] = (subsection_id, foreign_id_subsection)
-          subsection_id += 1
+      if subsection is None:
+          subsection = "Default Subsection"  # replace this with an appropriate default string for your context
       else:
-        print("No preceding h4 sibling found for ul.")
+          subsection = subsection.string if subsection.string is not None else "Default Subsection"
+          # append grade if the subsection has been seen before
+          if subsection in original_subsections:
+              print(f"subsection: {subsection}") # debug
+              print(f"grade: {grade}")  # debug
+              subsection = subsection + " (" + grade + ")"
+          else:
+              original_subsections.append(subsection)
+      
+          if subsection not in subsection_data:
+              foreign_id_subsection = foreign_id_grade + "-" + str(
+                grade_id_current)  # Update the foreign key here
+              subsection_data[subsection] = (subsection_id, foreign_id_subsection)
+              subsection_id += 1
 
       subsection_id_current, foreign_id_subsection = subsection_data[
         subsection]
