@@ -2,14 +2,14 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 
-with open('source.html', 'r', encoding='utf-8') as file:
-  page_content = file.read()
+# with open('source.html', 'r', encoding='utf-8') as file:
+#   page_content = file.read()
 
-# url = "https://www.skolverket.se/undervisning/grundskolan/laroplan-och-kursplaner-for-grundskolan/laroplan-lgr22-for-grundskolan-samt-for-forskoleklassen-och-fritidshemmet?url=-996270488%2Fcompulsorycw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DGRGRSAM01%26tos%3Dgr&sv.url=12.5dfee44715d35a5cdfa219f"
-# page = requests.get(url)
+url = "https://www.skolverket.se/undervisning/grundskolan/laroplan-och-kursplaner-for-grundskolan/laroplan-lgr22-for-grundskolan-samt-for-forskoleklassen-och-fritidshemmet?url=-996270488%2Fcompulsorycw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DGRGRSAM01%26tos%3Dgr&sv.url=12.5dfee44715d35a5cdfa219f"
+page = requests.get(url)
 
 #groundwork
-soup = BeautifulSoup(page_content, "html.parser")
+soup = BeautifulSoup(page.text, "html.parser")
 result = soup.find('div', class_="content")
 
 central_contents = result.find('section')
