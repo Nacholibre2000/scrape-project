@@ -2,16 +2,21 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 
-# with open('source.html', 'r', encoding='utf-8') as file:
-#   page_content = file.read()
+# for source.html
+with open('source.html', 'r', encoding='utf-8') as file:
+  page_content = file.read()
+  
+soup = BeautifulSoup(page_content, "html.parser") # for source.html
 
-url = "https://www.skolverket.se/undervisning/grundskolan/laroplan-och-kursplaner-for-grundskolan/laroplan-lgr22-for-grundskolan-samt-for-forskoleklassen-och-fritidshemmet?url=-996270488%2Fcompulsorycw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DGRGRSAM01%26tos%3Dgr&sv.url=12.5dfee44715d35a5cdfa219f"
-page = requests.get(url)
+# for live url
+# url = "https://www.skolverket.se/undervisning/grundskolan/laroplan-och-kursplaner-for-grundskolan/laroplan-lgr22-for-grundskolan-samt-for-forskoleklassen-och-fritidshemmet?url=-996270488%2Fcompulsorycw%2Fjsp%2Fsubject.htm%3FsubjectCode%3DGRGRSAM01%26tos%3Dgr&sv.url=12.5dfee44715d35a5cdfa219f"
+
+# page = requests.get(url)
+
+#soup = BeautifulSoup(page.text, "html.parser") # for live url
 
 #groundwork
-soup = BeautifulSoup(page.text, "html.parser")
 result = soup.find('div', class_="content")
-
 central_contents = result.find('section')
 course_requirements = central_contents.find_next_sibling('section')
 
@@ -145,7 +150,7 @@ with open('central_content_data.csv', 'w', newline='') as file:
 
 with open('central_requirement_data.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["id", "sentence", "foreign_id_grades"])
+    writer.writerow(["id", "central_requirement", "foreign_id_grades"])
     for key, value in central_requirement_data.items():
         writer.writerow([value[0], key, value[1]])
 
