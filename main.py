@@ -125,8 +125,7 @@ for url in urls:
     if grade == "Betygskriterier för slutet av årskurs 9":
       grade = "I årskurs 7–9"
 
-    foreign_id_grade = str(subject_id_current) + "-" + str(
-      grade_id)  # Foreign key is subject ID + grade ID
+    foreign_id_grade = str(subject_id_current) + "-" + str(grade_id_current)
 
     if grade not in grade_data:
       grade_data[grade] = (grade_id, foreign_id_grade
