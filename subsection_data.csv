@@ -1,87 +1,336 @@
 id,subsection,foreign_id_grades
-1,Bildframställning,1-1-1
-2,"Tekniker, verktyg och material",1-1-1
-3,Bildanalys,1-1-1
-4,Året runt i naturen,1-1-1
-5,Kropp och hälsa,1-1-1
-6,Kraft och rörelse,1-1-1
-7,Material och ämnen,1-1-1
-8,Systematiska undersökningar,1-1-1
-9,Natur och miljö,1-1-2
-10,Systematiska undersökningar och granskning av information,1-1-2
-11,Kommunikationens innehåll,1-1-1
-12,Lyssna och läsa – reception,1-1-1
-13,"Tala, skriva och samtala – produktion och interaktion",1-1-1
-14,Fysiken i naturen och samhället,1-1-2
-15,Att leva tillsammans,1-1-1
-16,Att leva i närområdet,1-1-1
-17,Att leva i världen,1-1-1
-18,Att undersöka verkligheten,1-1-1
-19,"Geografiska förhållanden, mönster och processer",1-1-2
-20,Hållbar utveckling,1-1-2
-21,Geografins metoder och verktyg,1-1-2
-22,Mat och matlagning,1-6-4
-23,Privatekonomi och konsumtion,1-6-4
-24,Levnadsvanor,1-6-4
-25,"Kulturmöten och statsbildning i Norden, cirka 800–1500",1-1-2
-26,"Maktförhållanden och levnadsvillkor i Norden, cirka 1500–1800",1-1-2
-27,"Folkökning, ändrade maktförhållanden och emigration, cirka 1800–1900",1-1-2
-28,Samhällsomvandlingar: framväxten av civilisationer och industrisamhällen,1-1-3
-29,"Imperialism och världskrig, cirka 1850–1950",1-1-3
-30,"Demokratisering och ökad globalisering, cirka 1900 till nutid",1-1-3
-31,Rörelse,1-1-1
-32,Friluftsliv och utevistelse,1-1-1
-33,Hälsa och levnadsvanor,1-1-1
-34, Rörelse,1-1-3
-35,"Kemin i naturen, i samhället och i människokroppen",1-1-2
-36,Taluppfattning och tals användning,1-1-1
-37,Algebra,1-1-1
-38,Geometri,1-1-1
-39,Sannolikhet och statistik,1-1-1
-40,Samband och förändring,1-1-1
-41,Problemlösning,1-1-1
-42,Lyssna – reception,1-11-8
-43,Tala och samtala – produktion och interaktion,1-11-8
-44,Läsa – reception (förenklade kinesiska tecken),1-11-8
-45,Skriva – produktion och interaktion (förenklade kinesiska tecken),1-11-8
-46,Läsa och skriva,1-12-19
-47,"Tala, lyssna och samtala",1-12-19
-48,Texter,1-12-19
-49,Språkbruk,1-12-19
-50,Kultur och samhälle,1-12-19
-51,Sverigefinsk kultur,1-13-22
-52,Jiddischkultur,1-14-32
-53,Tornedalingars och andra meänkielitalandes kultur,1-15-42
-54,Romsk kultur,1-16-52
-55,Musicerande och musikskapande,1-1-1
-56,Musikens verktyg,1-1-1
-57,Musikens sammanhang och funktioner,1-1-1
-58,Religioner och andra livsåskådningar,1-1-2
-59,Religion och samhälle,1-1-2
-60,Etik och livsfrågor,1-1-2
-61,Individer och gemenskaper,1-1-2
-62,Samhällsresurser och fördelning,1-1-2
-63,Beslutsfattande och politiska idéer,1-1-2
-64,Rättigheter och rättsskipning,1-1-2
-65,Information och kommunikation,1-1-2
-66,Granskning av samhällsfrågor,1-1-2
-67,"Slöjdens material, verktyg och hantverkstekniker",1-1-1
-68,Slöjdens arbetsprocesser,1-1-1
-69,Slöjdens uttryck och betydelse för hållbar utveckling,1-1-1
-70,Informationssökning och källkritik,1-1-1
-71,Avläsa – reception,1-11-5
-72,Teckna och samtala – produktion och interaktion,1-11-5
-73,"Teknik, människa, samhälle och miljö",1-1-1
-74,Tekniska lösningar,1-1-1
-75,Arbetsmetoder för utveckling av tekniska lösningar,1-1-1
-76,Default Subsection,1-1-2
-77,Klassisk balett,1-1-2
-78,Modern nutida dans,1-1-2
-79,Dansteknisk breddning,1-1-2
-80,Improvisation,1-1-2
-81,Scenisk verksamhet,1-1-2
-82,Repertoar och scenisk verksamhet,1-1-3
-83,Religion och tänkande,1-1-3
-84,Judisk historia,1-1-3
-85,Judiska kulturer och identiteter,1-1-3
-86,Begrepp och källor,1-1-3
+2,Bildframställning,1-1-2
+3,"Tekniker, verktyg och material",1-1-2
+4,Bildanalys,1-1-2
+5,Bildframställning (I årskurs 4–6),1-1-3
+6,"Tekniker, verktyg och material (I årskurs 4–6)",1-1-3
+7,Bildanalys (I årskurs 4–6),1-1-3
+8,Bildframställning (I årskurs 7–9),1-1-4
+9,"Tekniker, verktyg och material (I årskurs 7–9)",1-1-4
+10,Bildanalys (I årskurs 7–9),1-1-4
+11,Året runt i naturen,1-1-2
+12,Kropp och hälsa,1-1-2
+13,Kraft och rörelse,1-1-2
+14,Material och ämnen,1-1-2
+15,Systematiska undersökningar,1-1-2
+16,Natur och miljö,1-1-3
+17,Kropp och hälsa (I årskurs 4–6),1-1-3
+18,Systematiska undersökningar och granskning av information,1-1-3
+19,Natur och miljö (I årskurs 7–9),1-1-4
+20,Kropp och hälsa (I årskurs 7–9),1-1-4
+21,Systematiska undersökningar och granskning av information (I årskurs 7–9),1-1-4
+22,Kommunikationens innehåll,1-1-2
+23,Lyssna och läsa – reception,1-1-2
+24,"Tala, skriva och samtala – produktion och interaktion",1-1-2
+25,Kommunikationens innehåll (I årskurs 4–6),1-1-3
+26,Lyssna och läsa – reception (I årskurs 4–6),1-1-3
+27,"Tala, skriva och samtala – produktion och interaktion (I årskurs 4–6)",1-1-3
+28,Kommunikationens innehåll (I årskurs 7–9),1-1-4
+29,Lyssna och läsa – reception (I årskurs 7–9),1-1-4
+30,"Tala, skriva och samtala – produktion och interaktion (I årskurs 7–9)",1-1-4
+31,Året runt i naturen (I årskurs 1–3),1-1-2
+32,Kropp och hälsa (I årskurs 1–3),1-1-2
+33,Kraft och rörelse (I årskurs 1–3),1-1-2
+34,Material och ämnen (I årskurs 1–3),1-1-2
+35,Systematiska undersökningar (I årskurs 1–3),1-1-2
+36,Fysiken i naturen och samhället,1-1-3
+37,Systematiska undersökningar och granskning av information (I årskurs 4–6),1-1-3
+38,Fysiken i naturen och samhället (I årskurs 7–9),1-1-4
+40,Att leva tillsammans,1-1-2
+41,Att leva i närområdet,1-1-2
+42,Att leva i världen,1-1-2
+43,Att undersöka verkligheten,1-1-2
+44,"Geografiska förhållanden, mönster och processer",1-1-3
+45,Hållbar utveckling,1-1-3
+46,Geografins metoder och verktyg,1-1-3
+47,"Geografiska förhållanden, mönster och processer (I årskurs 7–9)",1-1-4
+48,Hållbar utveckling (I årskurs 7–9),1-1-4
+49,Geografins metoder och verktyg (I årskurs 7–9),1-1-4
+50,Mat och matlagning,1-6-17
+51,Privatekonomi och konsumtion,1-6-17
+52,Levnadsvanor,1-6-17
+53,Mat och matlagning (I årskurs 7–9),1-1-4
+54,Privatekonomi och konsumtion (I årskurs 7–9),1-1-4
+55,Levnadsvanor (I årskurs 7–9),1-1-4
+56,Att leva tillsammans (I årskurs 1–3),1-1-2
+57,Att leva i närområdet (I årskurs 1–3),1-1-2
+58,Att leva i världen (I årskurs 1–3),1-1-2
+59,Att undersöka verkligheten (I årskurs 1–3),1-1-2
+60,"Kulturmöten och statsbildning i Norden, cirka 800–1500",1-1-3
+61,"Maktförhållanden och levnadsvillkor i Norden, cirka 1500–1800",1-1-3
+62,"Folkökning, ändrade maktförhållanden och emigration, cirka 1800–1900",1-1-3
+63,Samhällsomvandlingar: framväxten av civilisationer och industrisamhällen,1-1-4
+64,"Imperialism och världskrig, cirka 1850–1950",1-1-4
+65,"Demokratisering och ökad globalisering, cirka 1900 till nutid",1-1-4
+66,Rörelse,1-1-2
+67,Friluftsliv och utevistelse,1-1-2
+68,Hälsa och levnadsvanor,1-1-2
+69,Rörelse (I årskurs 4–6),1-1-3
+70,Friluftsliv och utevistelse (I årskurs 4–6),1-1-3
+71,Hälsa och levnadsvanor (I årskurs 4–6),1-1-3
+72, Rörelse,1-1-4
+73,Friluftsliv och utevistelse (I årskurs 7–9),1-1-4
+74,Hälsa och levnadsvanor (I årskurs 7–9),1-1-4
+80,"Kemin i naturen, i samhället och i människokroppen",1-1-3
+82,"Kemin i naturen, i samhället och i människokroppen (I årskurs 7–9)",1-1-4
+84,Taluppfattning och tals användning,1-1-2
+85,Algebra,1-1-2
+86,Geometri,1-1-2
+87,Sannolikhet och statistik,1-1-2
+88,Samband och förändring,1-1-2
+89,Problemlösning,1-1-2
+90,Taluppfattning och tals användning (I årskurs 4–6),1-1-3
+91,Algebra (I årskurs 4–6),1-1-3
+92,Geometri (I årskurs 4–6),1-1-3
+93,Sannolikhet och statistik (I årskurs 4–6),1-1-3
+94,Samband och förändring (I årskurs 4–6),1-1-3
+95,Problemlösning (I årskurs 4–6),1-1-3
+96,Taluppfattning och tals användning (I årskurs 7–9),1-1-4
+97,Algebra (I årskurs 7–9),1-1-4
+98,Geometri (I årskurs 7–9),1-1-4
+99,Sannolikhet och statistik (I årskurs 7–9),1-1-4
+100,Samband och förändring (I årskurs 7–9),1-1-4
+101,Problemlösning (I årskurs 7–9),1-1-4
+102,"Kommunikationens innehåll (I årskurs 4–9, inom ramen för elevens val)",1-11-31
+103,"Lyssna och läsa – reception (I årskurs 4–9, inom ramen för elevens val)",1-11-31
+104,"Tala, skriva och samtala – produktion och interaktion (I årskurs 4–9, inom ramen för elevens val)",1-11-31
+105,"Kommunikationens innehåll (I årskurs 4–6, inom ramen för språkval)",1-11-32
+106,"Lyssna och läsa – reception (I årskurs 4–6, inom ramen för språkval)",1-11-32
+107,"Tala, skriva och samtala – produktion och interaktion (I årskurs 4–6, inom ramen för språkval)",1-11-32
+108,"Kommunikationens innehåll (I årskurs 7–9, inom ramen för språkval)",1-11-33
+109,"Lyssna och läsa – reception (I årskurs 7–9, inom ramen för språkval)",1-11-33
+110,"Tala, skriva och samtala – produktion och interaktion (I årskurs 7–9, inom ramen för språkval)",1-11-33
+111,"Kommunikationens innehåll (I årskurs 4–9, inom ramen för elevens val, kinesiska)",1-11-34
+112,Lyssna – reception,1-11-34
+113,Tala och samtala – produktion och interaktion,1-11-34
+114,Läsa – reception (förenklade kinesiska tecken),1-11-34
+115,Skriva – produktion och interaktion (förenklade kinesiska tecken),1-11-34
+116,"Kommunikationens innehåll (I årskurs 4–6, inom ramen för språkval, kinesiska)",1-11-35
+117,"Lyssna – reception (I årskurs 4–6, inom ramen för språkval, kinesiska)",1-11-35
+118,"Tala och samtala – produktion och interaktion (I årskurs 4–6, inom ramen för språkval, kinesiska)",1-11-35
+119,"Läsa – reception (förenklade kinesiska tecken) (I årskurs 4–6, inom ramen för språkval, kinesiska)",1-11-35
+120,"Skriva – produktion och interaktion (förenklade kinesiska tecken) (I årskurs 4–6, inom ramen för språkval, kinesiska)",1-11-35
+121,"Kommunikationens innehåll (I årskurs 7–9, inom ramen för språkval, kinesiska)",1-11-36
+122,"Lyssna – reception (I årskurs 7–9, inom ramen för språkval, kinesiska)",1-11-36
+123,"Tala och samtala – produktion och interaktion (I årskurs 7–9, inom ramen för språkval, kinesiska)",1-11-36
+124,"Läsa – reception (förenklade kinesiska tecken) (I årskurs 7–9, inom ramen för språkval, kinesiska)",1-11-36
+125,"Skriva – produktion och interaktion (förenklade kinesiska tecken) (I årskurs 7–9, inom ramen för språkval, kinesiska)",1-11-36
+126,Läsa och skriva,1-12-37
+127,"Tala, lyssna och samtala",1-12-37
+128,Texter,1-12-37
+129,Språkbruk,1-12-37
+130,Kultur och samhälle,1-12-37
+131,Läsa och skriva (I årskurs 4-6),1-12-38
+132,"Tala, lyssna och samtala (I årskurs 4-6)",1-12-38
+133,Texter (I årskurs 4-6),1-12-38
+134,Språkbruk (I årskurs 4-6),1-12-38
+135,Kultur och samhälle (I årskurs 4-6),1-12-38
+136,Läsa och skriva (I årskurs 7-9),1-12-39
+137,"Tala, lyssna och samtala (I årskurs 7-9)",1-12-39
+138,Texter (I årskurs 7-9),1-12-39
+139,Språkbruk (I årskurs 7-9),1-12-39
+140,Kultur och samhälle (I årskurs 7-9),1-12-39
+141,"Läsa och skriva (I årskurs 1–3, inom ramen för finska som förstaspråk)",1-13-40
+142,"Tala, lyssna och samtala (I årskurs 1–3, inom ramen för finska som förstaspråk)",1-13-40
+143,"Texter (I årskurs 1–3, inom ramen för finska som förstaspråk)",1-13-40
+144,"Språkbruk (I årskurs 1–3, inom ramen för finska som förstaspråk)",1-13-40
+145,Sverigefinsk kultur,1-13-40
+146,"Läsa och skriva (I årskurs 4–6, inom ramen för finska som förstaspråk)",1-13-41
+147,"Tala, lyssna och samtala (I årskurs 4–6, inom ramen för finska som förstaspråk)",1-13-41
+148,"Texter (I årskurs 4–6, inom ramen för finska som förstaspråk)",1-13-41
+149,"Språkbruk (I årskurs 4–6, inom ramen för finska som förstaspråk)",1-13-41
+150,"Sverigefinsk kultur (I årskurs 4–6, inom ramen för finska som förstaspråk)",1-13-41
+151,"Läsa och skriva (I årskurs 7–9, inom ramen för finska som förstaspråk)",1-13-42
+152,"Tala, lyssna och samtala (I årskurs 7–9, inom ramen för finska som förstaspråk)",1-13-42
+153,"Texter (I årskurs 7–9, inom ramen för finska som förstaspråk)",1-13-42
+154,"Språkbruk (I årskurs 7–9, inom ramen för finska som förstaspråk)",1-13-42
+155,"Sverigefinsk kultur (I årskurs 7–9, inom ramen för finska som förstaspråk)",1-13-42
+156,"Läsa och skriva (I årskurs 1–3, inom ramen för finska som andraspråk)",1-13-43
+157,"Tala, lyssna och samtala (I årskurs 1–3, inom ramen för finska som andraspråk)",1-13-43
+158,"Texter (I årskurs 1–3, inom ramen för finska som andraspråk)",1-13-43
+159,"Språkbruk (I årskurs 1–3, inom ramen för finska som andraspråk)",1-13-43
+160,"Sverigefinsk kultur (I årskurs 1–3, inom ramen för finska som andraspråk)",1-13-43
+161,"Läsa och skriva (I årskurs 4–6, inom ramen för finska som andraspråk)",1-13-44
+162,"Tala, lyssna och samtala (I årskurs 4–6, inom ramen för finska som andraspråk)",1-13-44
+163,"Texter (I årskurs 4–6, inom ramen för finska som andraspråk)",1-13-44
+164,"Språkbruk (I årskurs 4–6, inom ramen för finska som andraspråk)",1-13-44
+165,"Sverigefinsk kultur (I årskurs 4–6, inom ramen för finska som andraspråk)",1-13-44
+166,"Läsa och skriva (I årskurs 7–9, inom ramen för finska som andraspråk)",1-13-45
+167,"Tala, lyssna och samtala (I årskurs 7–9, inom ramen för finska som andraspråk)",1-13-45
+168,"Texter (I årskurs 7–9, inom ramen för finska som andraspråk)",1-13-45
+169,"Språkbruk (I årskurs 7–9, inom ramen för finska som andraspråk)",1-13-45
+170,"Sverigefinsk kultur (I årskurs 7–9, inom ramen för finska som andraspråk)",1-13-45
+171,"Läsa och skriva (I årskurs 1–3, inom ramen för jiddisch som förstaspråk)",1-14-46
+172,"Tala, lyssna och samtala (I årskurs 1–3, inom ramen för jiddisch som förstaspråk)",1-14-46
+173,"Texter (I årskurs 1–3, inom ramen för jiddisch som förstaspråk)",1-14-46
+174,"Språkbruk (I årskurs 1–3, inom ramen för jiddisch som förstaspråk)",1-14-46
+175,Jiddischkultur,1-14-46
+176,"Läsa och skriva (I årskurs 4–6, inom ramen för jiddisch som förstaspråk)",1-14-47
+177,"Tala, lyssna och samtala (I årskurs 4–6, inom ramen för jiddisch som förstaspråk)",1-14-47
+178,"Texter (I årskurs 4–6, inom ramen för jiddisch som förstaspråk)",1-14-47
+179,"Språkbruk (I årskurs 4–6, inom ramen för jiddisch som förstaspråk)",1-14-47
+180,"Jiddischkultur (I årskurs 4–6, inom ramen för jiddisch som förstaspråk)",1-14-47
+181,"Läsa och skriva (I årskurs 7–9, inom ramen för jiddisch som förstaspråk)",1-14-48
+182,"Tala, lyssna och samtala (I årskurs 7–9, inom ramen för jiddisch som förstaspråk)",1-14-48
+183,"Texter (I årskurs 7–9, inom ramen för jiddisch som förstaspråk)",1-14-48
+184,"Språkbruk (I årskurs 7–9, inom ramen för jiddisch som förstaspråk)",1-14-48
+185,"Jiddischkultur (I årskurs 7–9, inom ramen för jiddisch som förstaspråk)",1-14-48
+186,"Läsa och skriva (I årskurs 1–3, inom ramen för jiddisch som andraspråk)",1-14-49
+187,"Tala, lyssna och samtala (I årskurs 1–3, inom ramen för jiddisch som andraspråk)",1-14-49
+188,"Texter (I årskurs 1–3, inom ramen för jiddisch som andraspråk)",1-14-49
+189,"Språkbruk (I årskurs 1–3, inom ramen för jiddisch som andraspråk)",1-14-49
+190,"Jiddischkultur (I årskurs 1–3, inom ramen för jiddisch som andraspråk)",1-14-49
+191,"Läsa och skriva (I årskurs 4–6, inom ramen för jiddisch som andraspråk)",1-14-50
+192,"Tala, lyssna och samtala (I årskurs 4–6, inom ramen för jiddisch som andraspråk)",1-14-50
+193,"Texter (I årskurs 4–6, inom ramen för jiddisch som andraspråk)",1-14-50
+194,"Språkbruk (I årskurs 4–6, inom ramen för jiddisch som andraspråk)",1-14-50
+195,"Jiddischkultur (I årskurs 4–6, inom ramen för jiddisch som andraspråk)",1-14-50
+196,"Läsa och skriva (I årskurs 7–9, inom ramen för jiddisch som andraspråk)",1-14-51
+197,"Tala, lyssna och samtala (I årskurs 7–9, inom ramen för jiddisch som andraspråk)",1-14-51
+198,"Texter (I årskurs 7–9, inom ramen för jiddisch som andraspråk)",1-14-51
+199,"Språkbruk (I årskurs 7–9, inom ramen för jiddisch som andraspråk)",1-14-51
+200,"Jiddischkultur (I årskurs 7–9, inom ramen för jiddisch som andraspråk)",1-14-51
+201,"Läsa och skriva (I årskurs 1–3, inom ramen för meänkieli som förstaspråk)",1-15-52
+202,"Tala, lyssna och samtala (I årskurs 1–3, inom ramen för meänkieli som förstaspråk)",1-15-52
+203,"Texter (I årskurs 1–3, inom ramen för meänkieli som förstaspråk)",1-15-52
+204,"Språkbruk (I årskurs 1–3, inom ramen för meänkieli som förstaspråk)",1-15-52
+205,Tornedalingars och andra meänkielitalandes kultur,1-15-52
+206,"Läsa och skriva (I årskurs 4–6, inom ramen för meänkieli som förstaspråk)",1-15-53
+207,"Tala, lyssna och samtala (I årskurs 4–6, inom ramen för meänkieli som förstaspråk)",1-15-53
+208,"Texter (I årskurs 4–6, inom ramen för meänkieli som förstaspråk)",1-15-53
+209,"Språkbruk (I årskurs 4–6, inom ramen för meänkieli som förstaspråk)",1-15-53
+210,"Tornedalingars och andra meänkielitalandes kultur (I årskurs 4–6, inom ramen för meänkieli som förstaspråk)",1-15-53
+211,"Läsa och skriva (I årskurs 7–9, inom ramen för meänkieli som förstaspråk)",1-15-54
+212,"Tala, lyssna och samtala (I årskurs 7–9, inom ramen för meänkieli som förstaspråk)",1-15-54
+213,"Texter (I årskurs 7–9, inom ramen för meänkieli som förstaspråk)",1-15-54
+214,"Språkbruk (I årskurs 7–9, inom ramen för meänkieli som förstaspråk)",1-15-54
+215,"Tornedalingars och andra meänkielitalandes kultur (I årskurs 7–9, inom ramen för meänkieli som förstaspråk)",1-15-54
+216,"Läsa och skriva (I årskurs 1–3, inom ramen för meänkieli som andraspråk)",1-15-55
+217,"Tala, lyssna och samtala (I årskurs 1–3, inom ramen för meänkieli som andraspråk)",1-15-55
+218,"Texter (I årskurs 1–3, inom ramen för meänkieli som andraspråk)",1-15-55
+219,"Språkbruk (I årskurs 1–3, inom ramen för meänkieli som andraspråk)",1-15-55
+220,"Tornedalingars och andra meänkielitalandes kultur (I årskurs 1–3, inom ramen för meänkieli som andraspråk)",1-15-55
+221,"Läsa och skriva (I årskurs 4–6, inom ramen för meänkieli som andraspråk)",1-15-56
+222,"Tala, lyssna och samtala (I årskurs 4–6, inom ramen för meänkieli som andraspråk)",1-15-56
+223,"Texter (I årskurs 4–6, inom ramen för meänkieli som andraspråk)",1-15-56
+224,"Språkbruk (I årskurs 4–6, inom ramen för meänkieli som andraspråk)",1-15-56
+225,"Tornedalingars och andra meänkielitalandes kultur (I årskurs 4–6, inom ramen för meänkieli som andraspråk)",1-15-56
+226,"Läsa och skriva (I årskurs 7–9, inom ramen för meänkieli som andraspråk)",1-15-57
+227,"Tala, lyssna och samtala (I årskurs 7–9, inom ramen för meänkieli som andraspråk)",1-15-57
+228,"Texter (I årskurs 7–9, inom ramen för meänkieli som andraspråk)",1-15-57
+229,"Språkbruk (I årskurs 7–9, inom ramen för meänkieli som andraspråk)",1-15-57
+230,"Tornedalingars och andra meänkielitalandes kultur (I årskurs 7–9, inom ramen för meänkieli som andraspråk)",1-15-57
+231,"Läsa och skriva (I årskurs 1–3, inom ramen för romani chib som förstaspråk)",1-16-58
+232,"Tala, lyssna och samtala (I årskurs 1–3, inom ramen för romani chib som förstaspråk)",1-16-58
+233,"Texter (I årskurs 1–3, inom ramen för romani chib som förstaspråk)",1-16-58
+234,"Språkbruk (I årskurs 1–3, inom ramen för romani chib som förstaspråk)",1-16-58
+235,Romsk kultur,1-16-58
+236,"Läsa och skriva (I årskurs 4–6, inom ramen för romani chib som förstaspråk)",1-16-59
+237,"Tala, lyssna och samtala (I årskurs 4–6, inom ramen för romani chib som förstaspråk)",1-16-59
+238,"Texter (I årskurs 4–6, inom ramen för romani chib som förstaspråk)",1-16-59
+239,"Språkbruk (I årskurs 4–6, inom ramen för romani chib som förstaspråk)",1-16-59
+240,"Romsk kultur (I årskurs 4–6, inom ramen för romani chib som förstaspråk)",1-16-59
+241,"Läsa och skriva (I årskurs 7–9, inom ramen för romani chib som förstaspråk)",1-16-60
+242,"Tala, lyssna och samtala (I årskurs 7–9, inom ramen för romani chib som förstaspråk)",1-16-60
+243,"Texter (I årskurs 7–9, inom ramen för romani chib som förstaspråk)",1-16-60
+244,"Språkbruk (I årskurs 7–9, inom ramen för romani chib som förstaspråk)",1-16-60
+245,"Romsk kultur (I årskurs 7–9, inom ramen för romani chib som förstaspråk)",1-16-60
+246,"Läsa och skriva (I årskurs 1–3, inom ramen för romani chib som andraspråk)",1-16-61
+247,"Tala, lyssna och samtala (I årskurs 1–3, inom ramen för romani chib som andraspråk)",1-16-61
+248,"Texter (I årskurs 1–3, inom ramen för romani chib som andraspråk)",1-16-61
+249,"Språkbruk (I årskurs 1–3, inom ramen för romani chib som andraspråk)",1-16-61
+250,"Romsk kultur (I årskurs 1–3, inom ramen för romani chib som andraspråk)",1-16-61
+251,"Läsa och skriva (I årskurs 4–6, inom ramen för romani chib som andraspråk)",1-16-62
+252,"Tala, lyssna och samtala (I årskurs 4–6, inom ramen för romani chib som andraspråk)",1-16-62
+253,"Texter (I årskurs 4–6, inom ramen för romani chib som andraspråk)",1-16-62
+254,"Språkbruk (I årskurs 4–6, inom ramen för romani chib som andraspråk)",1-16-62
+255,"Romsk kultur (I årskurs 4–6, inom ramen för romani chib som andraspråk)",1-16-62
+256,"Läsa och skriva (I årskurs 7–9, inom ramen för romani chib som andraspråk)",1-16-63
+257,"Tala, lyssna och samtala (I årskurs 7–9, inom ramen för romani chib som andraspråk)",1-16-63
+258,"Texter (I årskurs 7–9, inom ramen för romani chib som andraspråk)",1-16-63
+259,"Språkbruk (I årskurs 7–9, inom ramen för romani chib som andraspråk)",1-16-63
+260,"Romsk kultur (I årskurs 7–9, inom ramen för romani chib som andraspråk)",1-16-63
+261,Musicerande och musikskapande,1-1-2
+262,Musikens verktyg,1-1-2
+263,Musikens sammanhang och funktioner,1-1-2
+264,Musicerande och musikskapande (I årskurs 4–6),1-1-3
+265,Musikens verktyg (I årskurs 4–6),1-1-3
+266,Musikens sammanhang och funktioner (I årskurs 4–6),1-1-3
+267,Musicerande och musikskapande (I årskurs 7–9),1-1-4
+268,Musikens verktyg (I årskurs 7–9),1-1-4
+269,Musikens sammanhang och funktioner (I årskurs 7–9),1-1-4
+274,Religioner och andra livsåskådningar,1-1-3
+275,Religion och samhälle,1-1-3
+276,Etik och livsfrågor,1-1-3
+277,Religioner och andra livsåskådningar (I årskurs 7–9),1-1-4
+278,Religion och samhälle (I årskurs 7–9),1-1-4
+279,Etik och livsfrågor (I årskurs 7–9),1-1-4
+284,Individer och gemenskaper,1-1-3
+285,Samhällsresurser och fördelning,1-1-3
+286,Beslutsfattande och politiska idéer,1-1-3
+287,Rättigheter och rättsskipning,1-1-3
+288,Information och kommunikation,1-1-3
+289,Granskning av samhällsfrågor,1-1-3
+290,Individer och gemenskaper (I årskurs 7–9),1-1-4
+291,Samhällsresurser och fördelning (I årskurs 7–9),1-1-4
+292,Beslutsfattande och politiska idéer (I årskurs 7–9),1-1-4
+293,Rättigheter och rättsskipning (I årskurs 7–9),1-1-4
+294,Information och kommunikation (I årskurs 7–9),1-1-4
+295,Granskning av samhällsfrågor (I årskurs 7–9),1-1-4
+296,"Slöjdens material, verktyg och hantverkstekniker",1-1-2
+297,Slöjdens arbetsprocesser,1-1-2
+298,Slöjdens uttryck och betydelse för hållbar utveckling,1-1-2
+299,"Slöjdens material, verktyg och hantverkstekniker (I årskurs 4–6)",1-1-3
+300,Slöjdens arbetsprocesser (I årskurs 4–6),1-1-3
+301,Slöjdens uttryck och betydelse för hållbar utveckling (I årskurs 4–6),1-1-3
+302,"Slöjdens material, verktyg och hantverkstekniker (I årskurs 7–9)",1-1-4
+303,Slöjdens arbetsprocesser (I årskurs 7–9),1-1-4
+304,Slöjdens uttryck och betydelse för hållbar utveckling (I årskurs 7–9),1-1-4
+305,Läsa och skriva (I årskurs 1–3),1-1-2
+306,"Tala, lyssna och samtala (I årskurs 1–3)",1-1-2
+307,Texter (I årskurs 1–3),1-1-2
+308,Språkbruk (I årskurs 1–3),1-1-2
+309,Informationssökning och källkritik,1-1-2
+310,Läsa och skriva (I årskurs 4–6),1-1-3
+311,"Tala, lyssna och samtala (I årskurs 4–6)",1-1-3
+312,Texter (I årskurs 4–6),1-1-3
+313,Språkbruk (I årskurs 4–6),1-1-3
+314,Informationssökning och källkritik (I årskurs 4–6),1-1-3
+315,Läsa och skriva (I årskurs 7–9),1-1-4
+316,"Tala, lyssna och samtala (I årskurs 7–9)",1-1-4
+317,Texter (I årskurs 7–9),1-1-4
+318,Språkbruk (I årskurs 7–9),1-1-4
+319,Informationssökning och källkritik (I årskurs 7–9),1-1-4
+324,Informationssökning och källkritik (I årskurs 1–3),1-1-2
+336,Avläsa – reception,1-11-31
+337,Teckna och samtala – produktion och interaktion,1-11-31
+339,"Avläsa – reception (I årskurs 4–6, inom ramen för språkval)",1-11-32
+340,"Teckna och samtala – produktion och interaktion (I årskurs 4–6, inom ramen för språkval)",1-11-32
+342,"Avläsa – reception (I årskurs 7–9, inom ramen för språkval)",1-11-33
+343,"Teckna och samtala – produktion och interaktion (I årskurs 7–9, inom ramen för språkval)",1-11-33
+344,"Teknik, människa, samhälle och miljö",1-1-2
+345,Tekniska lösningar,1-1-2
+346,Arbetsmetoder för utveckling av tekniska lösningar,1-1-2
+347,"Teknik, människa, samhälle och miljö (I årskurs 4–6)",1-1-3
+348,Tekniska lösningar (I årskurs 4–6),1-1-3
+349,Arbetsmetoder för utveckling av tekniska lösningar (I årskurs 4–6),1-1-3
+350,"Teknik, människa, samhälle och miljö (I årskurs 7–9)",1-1-4
+351,Tekniska lösningar (I årskurs 7–9),1-1-4
+352,Arbetsmetoder för utveckling av tekniska lösningar (I årskurs 7–9),1-1-4
+353,Default Subsection,1-1-3
+354,Klassisk balett,1-1-3
+355,Modern nutida dans,1-1-3
+356,Dansteknisk breddning,1-1-3
+357,Default Subsection (I årskurs 4–6),1-1-3
+359,Improvisation,1-1-3
+360,Scenisk verksamhet,1-1-3
+361,Default Subsection (I årskurs 7–9),1-1-4
+362,Klassisk balett (I årskurs 7–9),1-1-4
+363,Modern nutida dans (I årskurs 7–9),1-1-4
+364,Dansteknisk breddning (I årskurs 7–9),1-1-4
+367,Improvisation (I årskurs 7–9),1-1-4
+368,Repertoar och scenisk verksamhet,1-1-4
+369,Religion och tänkande,1-1-4
+370,Judisk historia,1-1-4
+371,Judiska kulturer och identiteter,1-1-4
+372,Begrepp och källor,1-1-4
