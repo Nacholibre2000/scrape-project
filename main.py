@@ -79,36 +79,32 @@ for url in urls:
     grade += " - " + subject  # Append the subject to the grade to ensure uniqueness
 
     # Always assign a new ID, and increment the counter.
-    foreign_id_grade = str(foreign_id_subject) + "-" + str(
-      subject_id_current)  # Update the foreign key here
+    foreign_id_grade = str(foreign_id_subject) + "-" + str(subject_id_current)  # Update the foreign key here
     grade_data[grade] = (grade_id, foreign_id_grade)
     grade_id += 1
-
     grade_id_current, foreign_id_grade = grade_data[grade]
 
-  # ul_tags = central_contents_tags.find_all('ul')
-  # for ul in ul_tags:
-  #   subsection = ul.find_previous_sibling('h4')
-  #   if subsection is None:
-  #     subsection = "Default Subsection"  # replace this with an appropriate default string for your context
-  #   else:
-  #     subsection = subsection.string if subsection.string is not None else "Default Subsection"
-  #     # append grade if the subsection has been seen before
-  #     # if subsection in original_subsections:
-  #     #     print(f"subsection: {subsection}") # debug
-  #     #     print(f"grade: {grade}")  # debug
-  #     #     subsection = subsection + " (" + grade + ")"
-  #     # else:
-  #     #     original_subsections.append(subsection)
-
-  #     if subsection not in subsection_data:
-  #       foreign_id_subsection = foreign_id_grade + "-" + str(
-  #         grade_id_current)  # Update the foreign key here
-  #       subsection_data[subsection] = (subsection_id, foreign_id_subsection)
-  #       subsection_id += 1
-
-  #   subsection_id_current, foreign_id_subsection = subsection_data[
-  #     subsection]
+    ul_tags = central_contents_tags.find_all('ul')
+    for ul in ul_tags:
+      subsection = ul.find_previous_sibling('h4')
+      if subsection is None:
+        subsection = "Default Subsection"  # replace this with an appropriate default string for your context
+      else:
+        subsection = subsection.string if subsection.string is not None else "Default Subsection"
+        # append grade if the subsection has been seen before
+        # if subsection in original_subsections:
+        #     print(f"subsection: {subsection}") # debug
+        #     print(f"grade: {grade}")  # debug
+        #     subsection = subsection + " (" + grade + ")"
+        # else:
+        #     original_subsections.append(subsection)
+  
+      subsection += " - " + grade  # Append the grade to the subsection to ensure uniqueness
+      foreign_id_subsection = str(foreign_id_grade) + "-" + str(grade_id_current)  # Update the foreign key here
+      subsection_data[subsection] = (subsection_id, foreign_id_subsection)
+      subsection_id += 1
+  
+      subsection_id_current, foreign_id_subsection = subsection_data[subsection]
 
   #   for central_content in ul.find_all('li'):
   #     central_content = central_content.string
@@ -175,11 +171,11 @@ with open('grade_data.csv', 'w', newline='') as file:
   for key, value in grade_data.items():
     writer.writerow([value[0], key, value[1]])
 
-# with open('subsection_data.csv', 'w', newline='') as file:
-#   writer = csv.writer(file)
-#   writer.writerow(["id", "subsection", "foreign_id_grades"])
-#   for key, value in subsection_data.items():
-#     writer.writerow([value[0], key, value[1]])
+with open('subsection_data.csv', 'w', newline='') as file:
+  writer = csv.writer(file)
+  writer.writerow(["id", "subsection", "foreign_id_grades"])
+  for key, value in subsection_data.items():
+    writer.writerow([value[0], key, value[1]])
 
 # with open('central_content_data.csv', 'w', newline='') as file:
 #   writer = csv.writer(file)
