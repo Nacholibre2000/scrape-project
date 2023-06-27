@@ -2,89 +2,168 @@ id,grade,foreign_id_subject
 1,I årskurs 1–3 - Bild,1-1
 2,I årskurs 4–6 - Bild,1-1
 3,I årskurs 7–9 - Bild,1-1
-4,I årskurs 1–3 - Biologi,1-2
-5,I årskurs 4–6 - Biologi,1-2
-6,I årskurs 7–9 - Biologi,1-2
-7,I årskurs 1–3 - Engelska,1-3
-8,I årskurs 4–6 - Engelska,1-3
-9,I årskurs 7–9 - Engelska,1-3
-10,I årskurs 1–3 - Fysik,1-4
-11,I årskurs 4–6 - Fysik,1-4
-12,I årskurs 7–9 - Fysik,1-4
-13,I årskurs 1–3 - Geografi,1-5
-14,I årskurs 4–6 - Geografi,1-5
-15,I årskurs 7–9 - Geografi,1-5
-16,I årskurs 1–6 - Hem- och konsumentkunskap,1-6
-17,I årskurs 7–9 - Hem- och konsumentkunskap,1-6
-18,I årskurs 1–3 - Historia,1-7
-19,I årskurs 4–6 - Historia,1-7
-20,I årskurs 7–9 - Historia,1-7
-21,I årskurs 1–3 - Idrott och hälsa,1-8
-22,I årskurs 4–6 - Idrott och hälsa,1-8
-23,I årskurs 7–9 - Idrott och hälsa,1-8
-24,I årskurs 1–3 - Kemi,1-9
-25,I årskurs 4–6 - Kemi,1-9
-26,I årskurs 7–9 - Kemi,1-9
-27,I årskurs 1–3 - Matematik,1-10
-28,I årskurs 4–6 - Matematik,1-10
-29,I årskurs 7–9 - Matematik,1-10
-30,"I årskurs 4–9, inom ramen för elevens val - Moderna språk",1-11
-31,"I årskurs 4–6, inom ramen för språkval - Moderna språk",1-11
-32,"I årskurs 7–9, inom ramen för språkval - Moderna språk",1-11
-33,"I årskurs 4–9, inom ramen för elevens val, kinesiska - Moderna språk",1-11
-34,"I årskurs 4–6, inom ramen för språkval, kinesiska - Moderna språk",1-11
-35,"I årskurs 7–9, inom ramen för språkval, kinesiska - Moderna språk",1-11
-36,I årskurs 1-3 - Modersmål,1-12
-37,I årskurs 4-6 - Modersmål,1-12
-38,I årskurs 7-9 - Modersmål,1-12
-39,"I årskurs 1–3, inom ramen för finska som förstaspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
-40,"I årskurs 4–6, inom ramen för finska som förstaspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
-41,"I årskurs 7–9, inom ramen för finska som förstaspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
-42,"I årskurs 1–3, inom ramen för finska som andraspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
-43,"I årskurs 4–6, inom ramen för finska som andraspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
-44,"I årskurs 7–9, inom ramen för finska som andraspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
-45,"I årskurs 1–3, inom ramen för jiddisch som förstaspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
-46,"I årskurs 4–6, inom ramen för jiddisch som förstaspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
-47,"I årskurs 7–9, inom ramen för jiddisch som förstaspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
-48,"I årskurs 1–3, inom ramen för jiddisch som andraspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
-49,"I årskurs 4–6, inom ramen för jiddisch som andraspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
-50,"I årskurs 7–9, inom ramen för jiddisch som andraspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
-51,"I årskurs 1–3, inom ramen för meänkieli som förstaspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
-52,"I årskurs 4–6, inom ramen för meänkieli som förstaspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
-53,"I årskurs 7–9, inom ramen för meänkieli som förstaspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
-54,"I årskurs 1–3, inom ramen för meänkieli som andraspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
-55,"I årskurs 4–6, inom ramen för meänkieli som andraspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
-56,"I årskurs 7–9, inom ramen för meänkieli som andraspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
-57,"I årskurs 1–3, inom ramen för romani chib som förstaspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
-58,"I årskurs 4–6, inom ramen för romani chib som förstaspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
-59,"I årskurs 7–9, inom ramen för romani chib som förstaspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
-60,"I årskurs 1–3, inom ramen för romani chib som andraspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
-61,"I årskurs 4–6, inom ramen för romani chib som andraspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
-62,"I årskurs 7–9, inom ramen för romani chib som andraspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
-63,I årskurs 1–3 - Musik,1-17
-64,I årskurs 4–6 - Musik,1-17
-65,I årskurs 7–9 - Musik,1-17
-66,I årskurs 1–3 - Religionskunskap,1-18
-67,I årskurs 4–6 - Religionskunskap,1-18
-68,I årskurs 7–9 - Religionskunskap,1-18
-69,I årskurs 1–3 - Samhällskunskap,1-19
-70,I årskurs 4–6 - Samhällskunskap,1-19
-71,I årskurs 7–9 - Samhällskunskap,1-19
-72,I årskurs 1–3 - Slöjd,1-20
-73,I årskurs 4–6 - Slöjd,1-20
-74,I årskurs 7–9 - Slöjd,1-20
-75,I årskurs 1–3 - Svenska,1-21
-76,I årskurs 4–6 - Svenska,1-21
-77,I årskurs 7–9 - Svenska,1-21
-78,I årskurs 1–3 - Svenska som andraspråk,1-22
-79,I årskurs 4–6 - Svenska som andraspråk,1-22
-80,I årskurs 7–9 - Svenska som andraspråk,1-22
-81,"I årskurs 4–9, inom ramen för elevens val - Teckenspråk för hörande",1-23
-82,"I årskurs 4–6, inom ramen för språkval - Teckenspråk för hörande",1-23
-83,"I årskurs 7–9, inom ramen för språkval - Teckenspråk för hörande",1-23
-84,I årskurs 1–3 - Teknik,1-24
-85,I årskurs 4–6 - Teknik,1-24
-86,I årskurs 7–9 - Teknik,1-24
-87,I årskurs 4–6 - Dans,1-25
-88,I årskurs 7–9 - Dans,1-25
-89,I årskurs 7–9 - Judiska studier,1-26
+4,Betygskriterier för slutet av årskurs 6 - Bild,1-1
+5,Betygskriterier för slutet av årskurs 9 - Bild,1-1
+6,I årskurs 1–3 - Biologi,1-2
+7,I årskurs 4–6 - Biologi,1-2
+8,I årskurs 7–9 - Biologi,1-2
+9,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Biologi,1-2
+10,Betygskriterier för slutet av årskurs 6 - Biologi,1-2
+11,Betygskriterier för slutet av årskurs 9 - Biologi,1-2
+12,I årskurs 1–3 - Engelska,1-3
+13,I årskurs 4–6 - Engelska,1-3
+14,I årskurs 7–9 - Engelska,1-3
+15,Betygskriterier för slutet av årskurs 6 - Engelska,1-3
+16,Betygskriterier för slutet av årskurs 9 - Engelska,1-3
+17,I årskurs 1–3 - Fysik,1-4
+18,I årskurs 4–6 - Fysik,1-4
+19,I årskurs 7–9 - Fysik,1-4
+20,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Fysik,1-4
+21,Betygskriterier för slutet av årskurs 6 - Fysik,1-4
+22,Betygskriterier för slutet av årskurs 9 - Fysik,1-4
+23,I årskurs 1–3 - Geografi,1-5
+24,I årskurs 4–6 - Geografi,1-5
+25,I årskurs 7–9 - Geografi,1-5
+26,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Geografi,1-5
+27,Betygskriterier för slutet av årskurs 6 - Geografi,1-5
+28,Betygskriterier för slutet av årskurs 9 - Geografi,1-5
+29,I årskurs 1–6 - Hem- och konsumentkunskap,1-6
+30,I årskurs 7–9 - Hem- och konsumentkunskap,1-6
+31,Betygskriterier för slutet av årskurs 6 - Hem- och konsumentkunskap,1-6
+32,Betygskriterier för slutet av årskurs 9 - Hem- och konsumentkunskap,1-6
+33,I årskurs 1–3 - Historia,1-7
+34,I årskurs 4–6 - Historia,1-7
+35,I årskurs 7–9 - Historia,1-7
+36,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Historia,1-7
+37,Betygskriterier för slutet av årskurs 6 - Historia,1-7
+38,Betygskriterier för slutet av årskurs 9 - Historia,1-7
+39,I årskurs 1–3 - Idrott och hälsa,1-8
+40,I årskurs 4–6 - Idrott och hälsa,1-8
+41,I årskurs 7–9 - Idrott och hälsa,1-8
+42,Betygskriterier för slutet av årskurs 6 - Idrott och hälsa,1-8
+43,Betygskriterier för slutet av årskurs 9 - Idrott och hälsa,1-8
+44,I årskurs 1–3 - Kemi,1-9
+45,I årskurs 4–6 - Kemi,1-9
+46,I årskurs 7–9 - Kemi,1-9
+47,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Kemi,1-9
+48,Betygskriterier för slutet av årskurs 6 - Kemi,1-9
+49,Betygskriterier för slutet av årskurs 9 - Kemi,1-9
+50,I årskurs 1–3 - Matematik,1-10
+51,I årskurs 4–6 - Matematik,1-10
+52,I årskurs 7–9 - Matematik,1-10
+53,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Matematik,1-10
+54,Betygskriterier för slutet av årskurs 6 - Matematik,1-10
+55,Betygskriterier för slutet av årskurs 9 - Matematik,1-10
+56,"I årskurs 4–9, inom ramen för elevens val - Moderna språk",1-11
+57,"I årskurs 4–6, inom ramen för språkval - Moderna språk",1-11
+58,"I årskurs 7–9, inom ramen för språkval - Moderna språk",1-11
+59,"I årskurs 4–9, inom ramen för elevens val, kinesiska - Moderna språk",1-11
+60,"I årskurs 4–6, inom ramen för språkval, kinesiska - Moderna språk",1-11
+61,"I årskurs 7–9, inom ramen för språkval, kinesiska - Moderna språk",1-11
+62,"Betygskriterier för slutet av årskurs 6, inom ramen för elevens val - Moderna språk",1-11
+63,"Betygskriterier för slutet av årskurs 9, inom ramen för elevens val - Moderna språk",1-11
+64,"Betygskriterier för slutet av årskurs 6, inom ramen för språkval - Moderna språk",1-11
+65,"Betygskriterier för slutet av årskurs 9, inom ramen för språkval - Moderna språk",1-11
+66,"Betygskriterier för slutet av årskurs 6, inom ramen för elevens val, kinesiska - Moderna språk",1-11
+67,"Betygskriterier för slutet av årskurs 9, inom ramen för elevens val, kinesiska - Moderna språk",1-11
+68,"Betygskriterier för slutet av årskurs 6, inom ramen för språkval, kinesiska - Moderna språk",1-11
+69,"Betygskriterier för slutet av årskurs 9, inom ramen för språkval, kinesiska - Moderna språk",1-11
+70,I årskurs 1-3 - Modersmål,1-12
+71,I årskurs 4-6 - Modersmål,1-12
+72,I årskurs 7-9 - Modersmål,1-12
+73,Betygskriterier för slutet av årskurs 6 - Modersmål,1-12
+74,Betygskriterier för slutet av årskurs 9 - Modersmål,1-12
+75,"I årskurs 1–3, inom ramen för finska som förstaspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+76,"I årskurs 4–6, inom ramen för finska som förstaspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+77,"I årskurs 7–9, inom ramen för finska som förstaspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+78,"I årskurs 1–3, inom ramen för finska som andraspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+79,"I årskurs 4–6, inom ramen för finska som andraspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+80,"I årskurs 7–9, inom ramen för finska som andraspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+81,"Betygskriterier för slutet av årskurs 6, inom ramen för finska som förstaspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+82,"Betygskriterier för slutet av årskurs 9, inom ramen för finska som förstaspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+83,"Betygskriterier för slutet av årskurs 6, inom ramen för finska som andraspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+84,"Betygskriterier för slutet av årskurs 9, inom ramen för finska som andraspråk - Modersmål - finska som nationellt minoritetsspråk",1-13
+85,"I årskurs 1–3, inom ramen för jiddisch som förstaspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+86,"I årskurs 4–6, inom ramen för jiddisch som förstaspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+87,"I årskurs 7–9, inom ramen för jiddisch som förstaspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+88,"I årskurs 1–3, inom ramen för jiddisch som andraspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+89,"I årskurs 4–6, inom ramen för jiddisch som andraspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+90,"I årskurs 7–9, inom ramen för jiddisch som andraspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+91,"Betygskriterier för slutet av årskurs 6, inom ramen för jiddisch som förstaspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+92,"Betygskriterier för slutet av årskurs 9, inom ramen för jiddisch som förstaspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+93,"Betygskriterier för slutet av årskurs 6, inom ramen för jiddisch som andraspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+94,"Betygskriterier för slutet av årskurs 9, inom ramen för jiddisch som andraspråk - Modersmål - jiddisch som nationellt minoritetsspråk",1-14
+95,"I årskurs 1–3, inom ramen för meänkieli som förstaspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+96,"I årskurs 4–6, inom ramen för meänkieli som förstaspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+97,"I årskurs 7–9, inom ramen för meänkieli som förstaspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+98,"I årskurs 1–3, inom ramen för meänkieli som andraspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+99,"I årskurs 4–6, inom ramen för meänkieli som andraspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+100,"I årskurs 7–9, inom ramen för meänkieli som andraspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+101,"Betygskriterier för slutet av årskurs 6, inom ramen för meänkieli som förstaspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+102,"Betygskriterier för slutet av årskurs 9, inom ramen för meänkieli som förstaspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+103,"Betygskriterier för slutet av årskurs 6, inom ramen för meänkieli som andraspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+104,"Betygskriterier för slutet av årskurs 9, inom ramen för meänkieli som andraspråk - Modersmål - meänkieli som nationellt minoritetsspråk",1-15
+105,"I årskurs 1–3, inom ramen för romani chib som förstaspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+106,"I årskurs 4–6, inom ramen för romani chib som förstaspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+107,"I årskurs 7–9, inom ramen för romani chib som förstaspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+108,"I årskurs 1–3, inom ramen för romani chib som andraspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+109,"I årskurs 4–6, inom ramen för romani chib som andraspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+110,"I årskurs 7–9, inom ramen för romani chib som andraspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+111,"Betygskriterier för slutet av årskurs 6, inom ramen för romani chib som förstaspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+112,"Betygskriterier för slutet av årskurs 9, inom ramen för romani chib som förstaspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+113,"Betygskriterier för slutet av årskurs 6, inom ramen för romani som andraspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+114,"Betygskriterier för slutet av årskurs 9, inom ramen för romani som andraspråk - Modersmål - romani chib som nationellt minoritetsspråk",1-16
+115,I årskurs 1–3 - Musik,1-17
+116,I årskurs 4–6 - Musik,1-17
+117,I årskurs 7–9 - Musik,1-17
+118,Betygskriterier för slutet av årskurs 6 - Musik,1-17
+119,Betygskriterier för slutet av årskurs 9 - Musik,1-17
+120,I årskurs 1–3 - Religionskunskap,1-18
+121,I årskurs 4–6 - Religionskunskap,1-18
+122,I årskurs 7–9 - Religionskunskap,1-18
+123,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Religionskunskap,1-18
+124,Betygskriterier för slutet av årskurs 6 - Religionskunskap,1-18
+125,Betygskriterier för slutet av årskurs 9 - Religionskunskap,1-18
+126,I årskurs 1–3 - Samhällskunskap,1-19
+127,I årskurs 4–6 - Samhällskunskap,1-19
+128,I årskurs 7–9 - Samhällskunskap,1-19
+129,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Samhällskunskap,1-19
+130,Betygskriterier för slutet av årskurs 6 - Samhällskunskap,1-19
+131,Betygskriterier för slutet av årskurs 9 - Samhällskunskap,1-19
+132,I årskurs 1–3 - Slöjd,1-20
+133,I årskurs 4–6 - Slöjd,1-20
+134,I årskurs 7–9 - Slöjd,1-20
+135,Betygskriterier för slutet av årskurs 6 - Slöjd,1-20
+136,Betygskriterier för slutet av årskurs 9 - Slöjd,1-20
+137,I årskurs 1–3 - Svenska,1-21
+138,I årskurs 4–6 - Svenska,1-21
+139,I årskurs 7–9 - Svenska,1-21
+140,Kriterier för bedömning av godtagbara kunskaper i läsförståelse i slutet av årskurs 1 - Svenska,1-21
+141,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Svenska,1-21
+142,Betygskriterier för slutet av årskurs 6 - Svenska,1-21
+143,Betygskriterier för slutet av årskurs 9 - Svenska,1-21
+144,I årskurs 1–3 - Svenska som andraspråk,1-22
+145,I årskurs 4–6 - Svenska som andraspråk,1-22
+146,I årskurs 7–9 - Svenska som andraspråk,1-22
+147,Kriterier för bedömning av godtagbara kunskaper i läsförståelse i slutet av årskurs 1 - Svenska som andraspråk,1-22
+148,Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3 - Svenska som andraspråk,1-22
+149,Betygskriterier för slutet av årskurs 6 - Svenska som andraspråk,1-22
+150,Betygskriterier för slutet av årskurs 9 - Svenska som andraspråk,1-22
+151,"I årskurs 4–9, inom ramen för elevens val - Teckenspråk för hörande",1-23
+152,"I årskurs 4–6, inom ramen för språkval - Teckenspråk för hörande",1-23
+153,"I årskurs 7–9, inom ramen för språkval - Teckenspråk för hörande",1-23
+154,"Betygskriterier för slutet av årskurs 6, inom ramen för elevens val - Teckenspråk för hörande",1-23
+155,"Betygskriterier för slutet av årskurs 9, inom ramen för elevens val - Teckenspråk för hörande",1-23
+156,"Betygskriterier för slutet av årskurs 6, inom ramen för språkval - Teckenspråk för hörande",1-23
+157,"Betygskriterier för slutet av årskurs 9, inom ramen för språkval - Teckenspråk för hörande",1-23
+158,I årskurs 1–3 - Teknik,1-24
+159,I årskurs 4–6 - Teknik,1-24
+160,I årskurs 7–9 - Teknik,1-24
+161,Betygskriterier för slutet av årskurs 6 - Teknik,1-24
+162,Betygskriterier för slutet av årskurs 9 - Teknik,1-24
+163,I årskurs 4–6 - Dans,1-25
+164,I årskurs 7–9 - Dans,1-25
+165,Betygskriterier för slutet av årskurs 6 - Dans,1-25
+166,Betygskriterier för slutet av årskurs 9 - Dans,1-25
+167,I årskurs 7–9 - Judiska studier,1-26
+168,Betygskriterier för slutet av årskurs 9 - Judiska studier,1-26
