@@ -115,19 +115,6 @@ for url in urls:
   for idx, articles in enumerate(course_requirements.find_all('article'),
                                  start=1):
     grade = articles.find('h3').string
-
-    # if grade == "Kriterier för bedömning av godtagbara kunskaper i slutet av årskurs 3":
-    #   grade = "I årskurs 1–3"
-
-    # if grade == "Betygskriterier för slutet av årskurs 6":
-    #   grade = "I årskurs 4–6"
-
-    # if grade == "Betygskriterier för slutet av årskurs 9":
-    #   grade = "I årskurs 7–9"
-
-    #foreign_id_grade = str(subject_id_current) + "-" + str(grade_id_current)
-
-
     grade += " - " + subject  # Append the subject to the grade to ensure uniqueness
 
     # Always assign a new ID, and increment the counter.
@@ -140,12 +127,6 @@ for url in urls:
     for paragraph in paragraphs:
       sentences = paragraph.get_text().split('. ')
       for central_requirement in sentences:
-        # append grade if the sentence has been seen before
-        # if central_requirement in original_sentences:
-        #   central_requirement = central_requirement + "-" + grade
-        # else:
-        #   original_sentences.append(central_requirement)
-        
         central_requirement += " - " + grade
         foreign_id_requirement = str(foreign_id_grade) + "-" + str(grade_id_current)  # Foreign key is grade foreign ID + grade ID
 
@@ -158,29 +139,34 @@ with open('subject_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
   writer.writerow(["id", "subject", "school_id"])
   for key, value in subject_data.items():
-    writer.writerow([value[0], key, value[1]])
+    subject = key.split(" - ")[0].strip()
+    writer.writerow([value[0], subject, value[1]])
 
 with open('grade_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "grade",
-                   "foreign_id_subject"])  # add foreign_id_subject
+  writer.writerow(["id", "grade", "foreign_id_subject"])
   for key, value in grade_data.items():
-    writer.writerow([value[0], key, value[1]])
+    grade = key.split(" - ")[0].strip()
+    writer.writerow([value[0], grade, value[1]])
 
 with open('subsection_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
   writer.writerow(["id", "subsection", "foreign_id_grade"])
   for key, value in subsection_data.items():
-    writer.writerow([value[0], key, value[1]])
+    subsection = key.split(" - ")[0].strip()
+    writer.writerow([value[0], subsection, value[1]])
 
 with open('central_content_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
   writer.writerow(["id", "central_content", "foreign_id_subsections"])
   for key, value in central_content_data.items():
-    writer.writerow([value[0], key, value[1]])
+    central_content = key.split(" - ")[0].strip()
+    writer.writerow([value[0], central_content, value[1]])
 
 with open('central_requirement_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
   writer.writerow(["id", "central_requirement", "foreign_id_grade"])
   for key, value in central_requirement_data.items():
-    writer.writerow([value[0], key, value[1]])
+    central_requirement = key.split(" - ")[0].strip()
+    writer.writerow([value[0], central_requirement, value[1]])
+
