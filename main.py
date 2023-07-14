@@ -139,8 +139,7 @@ with open('subject_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
   writer.writerow(["id", "subject", "school_id"])
   for key, value in subject_data.items():
-    subject = key.split(" - ")[0].strip()
-    writer.writerow([value[0], subject, value[1]])
+    writer.writerow([value[0], key, value[1]])
 
 with open('grade_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
