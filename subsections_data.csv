@@ -1,0 +1,368 @@
+id,subsection,foreign_id_grades
+1,Bildframställning,1-1-1
+2,"Tekniker, verktyg och material",1-1-1
+3,Bildanalys,1-1-1
+4,Bildframställning,1-1-2
+5,"Tekniker, verktyg och material",1-1-2
+6,Bildanalys,1-1-2
+7,Bildframställning,1-1-3
+8,"Tekniker, verktyg och material",1-1-3
+9,Bildanalys,1-1-3
+10,Året runt i naturen,1-2-6
+11,Kropp och hälsa,1-2-6
+12,Kraft och rörelse,1-2-6
+13,Material och ämnen,1-2-6
+14,Systematiska undersökningar,1-2-6
+15,Natur och miljö,1-2-7
+16,Kropp och hälsa,1-2-7
+17,Systematiska undersökningar och granskning av information,1-2-7
+18,Natur och miljö,1-2-8
+19,Kropp och hälsa,1-2-8
+20,Systematiska undersökningar och granskning av information,1-2-8
+21,Kommunikationens innehåll,1-3-12
+22,Lyssna och läsa – reception,1-3-12
+23,"Tala, skriva och samtala – produktion och interaktion",1-3-12
+24,Kommunikationens innehåll,1-3-13
+25,Lyssna och läsa – reception,1-3-13
+26,"Tala, skriva och samtala – produktion och interaktion",1-3-13
+27,Kommunikationens innehåll,1-3-14
+28,Lyssna och läsa – reception,1-3-14
+29,"Tala, skriva och samtala – produktion och interaktion",1-3-14
+30,Året runt i naturen,1-4-17
+31,Kropp och hälsa,1-4-17
+32,Kraft och rörelse,1-4-17
+33,Material och ämnen,1-4-17
+34,Systematiska undersökningar,1-4-17
+35,Fysiken i naturen och samhället,1-4-18
+36,Systematiska undersökningar och granskning av information,1-4-18
+37,Fysiken i naturen och samhället,1-4-19
+38,Systematiska undersökningar och granskning av information,1-4-19
+39,Att leva tillsammans,1-5-23
+40,Att leva i närområdet,1-5-23
+41,Att leva i världen,1-5-23
+42,Att undersöka verkligheten,1-5-23
+43,"Geografiska förhållanden, mönster och processer",1-5-24
+44,Hållbar utveckling,1-5-24
+45,Geografins metoder och verktyg,1-5-24
+46,"Geografiska förhållanden, mönster och processer",1-5-25
+47,Hållbar utveckling,1-5-25
+48,Geografins metoder och verktyg,1-5-25
+49,Mat och matlagning,1-6-29
+50,Privatekonomi och konsumtion,1-6-29
+51,Levnadsvanor,1-6-29
+52,Mat och matlagning,1-6-30
+53,Privatekonomi och konsumtion,1-6-30
+54,Levnadsvanor,1-6-30
+55,Att leva tillsammans,1-7-33
+56,Att leva i närområdet,1-7-33
+57,Att leva i världen,1-7-33
+58,Att undersöka verkligheten,1-7-33
+59,"Kulturmöten och statsbildning i Norden, cirka 800–1500",1-7-34
+60,"Maktförhållanden och levnadsvillkor i Norden, cirka 1500–1800",1-7-34
+61,"Folkökning, ändrade maktförhållanden och emigration, cirka 1800–1900",1-7-34
+62,Samhällsomvandlingar: framväxten av civilisationer och industrisamhällen,1-7-35
+63,"Imperialism och världskrig, cirka 1850–1950",1-7-35
+64,"Demokratisering och ökad globalisering, cirka 1900 till nutid",1-7-35
+65,Rörelse,1-8-39
+66,Friluftsliv och utevistelse,1-8-39
+67,Hälsa och levnadsvanor,1-8-39
+68,Rörelse,1-8-40
+69,Friluftsliv och utevistelse,1-8-40
+70,Hälsa och levnadsvanor,1-8-40
+71,Rörelse,1-8-41
+72,Friluftsliv och utevistelse,1-8-41
+73,Hälsa och levnadsvanor,1-8-41
+74,Året runt i naturen,1-9-44
+75,Kropp och hälsa,1-9-44
+76,Kraft och rörelse,1-9-44
+77,Material och ämnen,1-9-44
+78,Systematiska undersökningar,1-9-44
+79,"Kemin i naturen, i samhället och i människokroppen",1-9-45
+80,Systematiska undersökningar och granskning av information,1-9-45
+81,"Kemin i naturen, i samhället och i människokroppen",1-9-46
+82,Systematiska undersökningar och granskning av information,1-9-46
+83,Taluppfattning och tals användning,1-10-50
+84,Algebra,1-10-50
+85,Geometri,1-10-50
+86,Sannolikhet och statistik,1-10-50
+87,Samband och förändring,1-10-50
+88,Problemlösning,1-10-50
+89,Taluppfattning och tals användning,1-10-51
+90,Algebra,1-10-51
+91,Geometri,1-10-51
+92,Sannolikhet och statistik,1-10-51
+93,Samband och förändring,1-10-51
+94,Problemlösning,1-10-51
+95,Taluppfattning och tals användning,1-10-52
+96,Algebra,1-10-52
+97,Geometri,1-10-52
+98,Sannolikhet och statistik,1-10-52
+99,Samband och förändring,1-10-52
+100,Problemlösning,1-10-52
+101,Kommunikationens innehåll,1-11-56
+102,Lyssna och läsa – reception,1-11-56
+103,"Tala, skriva och samtala – produktion och interaktion",1-11-56
+104,Kommunikationens innehåll,1-11-57
+105,Lyssna och läsa – reception,1-11-57
+106,"Tala, skriva och samtala – produktion och interaktion",1-11-57
+107,Kommunikationens innehåll,1-11-58
+108,Lyssna och läsa – reception,1-11-58
+109,"Tala, skriva och samtala – produktion och interaktion",1-11-58
+110,Kommunikationens innehåll,1-11-59
+111,Lyssna – reception,1-11-59
+112,Tala och samtala – produktion och interaktion,1-11-59
+113,Läsa – reception (förenklade kinesiska tecken),1-11-59
+114,Skriva – produktion och interaktion (förenklade kinesiska tecken),1-11-59
+115,Kommunikationens innehåll,1-11-60
+116,Lyssna – reception,1-11-60
+117,Tala och samtala – produktion och interaktion,1-11-60
+118,Läsa – reception (förenklade kinesiska tecken),1-11-60
+119,Skriva – produktion och interaktion (förenklade kinesiska tecken),1-11-60
+120,Kommunikationens innehåll,1-11-61
+121,Lyssna – reception,1-11-61
+122,Tala och samtala – produktion och interaktion,1-11-61
+123,Läsa – reception (förenklade kinesiska tecken),1-11-61
+124,Skriva – produktion och interaktion (förenklade kinesiska tecken),1-11-61
+125,Läsa och skriva,1-12-70
+126,"Tala, lyssna och samtala",1-12-70
+127,Texter,1-12-70
+128,Språkbruk,1-12-70
+129,Kultur och samhälle,1-12-70
+130,Läsa och skriva,1-12-71
+131,"Tala, lyssna och samtala",1-12-71
+132,Texter,1-12-71
+133,Språkbruk,1-12-71
+134,Kultur och samhälle,1-12-71
+135,Läsa och skriva,1-12-72
+136,"Tala, lyssna och samtala",1-12-72
+137,Texter,1-12-72
+138,Språkbruk,1-12-72
+139,Kultur och samhälle,1-12-72
+140,Läsa och skriva,1-13-75
+141,"Tala, lyssna och samtala",1-13-75
+142,Texter,1-13-75
+143,Språkbruk,1-13-75
+144,Sverigefinsk kultur,1-13-75
+145,Läsa och skriva,1-13-76
+146,"Tala, lyssna och samtala",1-13-76
+147,Texter,1-13-76
+148,Språkbruk,1-13-76
+149,Sverigefinsk kultur,1-13-76
+150,Läsa och skriva,1-13-77
+151,"Tala, lyssna och samtala",1-13-77
+152,Texter,1-13-77
+153,Språkbruk,1-13-77
+154,Sverigefinsk kultur,1-13-77
+155,Läsa och skriva,1-13-78
+156,"Tala, lyssna och samtala",1-13-78
+157,Texter,1-13-78
+158,Språkbruk,1-13-78
+159,Sverigefinsk kultur,1-13-78
+160,Läsa och skriva,1-13-79
+161,"Tala, lyssna och samtala",1-13-79
+162,Texter,1-13-79
+163,Språkbruk,1-13-79
+164,Sverigefinsk kultur,1-13-79
+165,Läsa och skriva,1-13-80
+166,"Tala, lyssna och samtala",1-13-80
+167,Texter,1-13-80
+168,Språkbruk,1-13-80
+169,Sverigefinsk kultur,1-13-80
+170,Läsa och skriva,1-14-85
+171,"Tala, lyssna och samtala",1-14-85
+172,Texter,1-14-85
+173,Språkbruk,1-14-85
+174,Jiddischkultur,1-14-85
+175,Läsa och skriva,1-14-86
+176,"Tala, lyssna och samtala",1-14-86
+177,Texter,1-14-86
+178,Språkbruk,1-14-86
+179,Jiddischkultur,1-14-86
+180,Läsa och skriva,1-14-87
+181,"Tala, lyssna och samtala",1-14-87
+182,Texter,1-14-87
+183,Språkbruk,1-14-87
+184,Jiddischkultur,1-14-87
+185,Läsa och skriva,1-14-88
+186,"Tala, lyssna och samtala",1-14-88
+187,Texter,1-14-88
+188,Språkbruk,1-14-88
+189,Jiddischkultur,1-14-88
+190,Läsa och skriva,1-14-89
+191,"Tala, lyssna och samtala",1-14-89
+192,Texter,1-14-89
+193,Språkbruk,1-14-89
+194,Jiddischkultur,1-14-89
+195,Läsa och skriva,1-14-90
+196,"Tala, lyssna och samtala",1-14-90
+197,Texter,1-14-90
+198,Språkbruk,1-14-90
+199,Jiddischkultur,1-14-90
+200,Läsa och skriva,1-15-95
+201,"Tala, lyssna och samtala",1-15-95
+202,Texter,1-15-95
+203,Språkbruk,1-15-95
+204,Tornedalingars och andra meänkielitalandes kultur,1-15-95
+205,Läsa och skriva,1-15-96
+206,"Tala, lyssna och samtala",1-15-96
+207,Texter,1-15-96
+208,Språkbruk,1-15-96
+209,Tornedalingars och andra meänkielitalandes kultur,1-15-96
+210,Läsa och skriva,1-15-97
+211,"Tala, lyssna och samtala",1-15-97
+212,Texter,1-15-97
+213,Språkbruk,1-15-97
+214,Tornedalingars och andra meänkielitalandes kultur,1-15-97
+215,Läsa och skriva,1-15-98
+216,"Tala, lyssna och samtala",1-15-98
+217,Texter,1-15-98
+218,Språkbruk,1-15-98
+219,Tornedalingars och andra meänkielitalandes kultur,1-15-98
+220,Läsa och skriva,1-15-99
+221,"Tala, lyssna och samtala",1-15-99
+222,Texter,1-15-99
+223,Språkbruk,1-15-99
+224,Tornedalingars och andra meänkielitalandes kultur,1-15-99
+225,Läsa och skriva,1-15-100
+226,"Tala, lyssna och samtala",1-15-100
+227,Texter,1-15-100
+228,Språkbruk,1-15-100
+229,Tornedalingars och andra meänkielitalandes kultur,1-15-100
+230,Läsa och skriva,1-16-105
+231,"Tala, lyssna och samtala",1-16-105
+232,Texter,1-16-105
+233,Språkbruk,1-16-105
+234,Romsk kultur,1-16-105
+235,Läsa och skriva,1-16-106
+236,"Tala, lyssna och samtala",1-16-106
+237,Texter,1-16-106
+238,Språkbruk,1-16-106
+239,Romsk kultur,1-16-106
+240,Läsa och skriva,1-16-107
+241,"Tala, lyssna och samtala",1-16-107
+242,Texter,1-16-107
+243,Språkbruk,1-16-107
+244,Romsk kultur,1-16-107
+245,Läsa och skriva,1-16-108
+246,"Tala, lyssna och samtala",1-16-108
+247,Texter,1-16-108
+248,Språkbruk,1-16-108
+249,Romsk kultur,1-16-108
+250,Läsa och skriva,1-16-109
+251,"Tala, lyssna och samtala",1-16-109
+252,Texter,1-16-109
+253,Språkbruk,1-16-109
+254,Romsk kultur,1-16-109
+255,Läsa och skriva,1-16-110
+256,"Tala, lyssna och samtala",1-16-110
+257,Texter,1-16-110
+258,Språkbruk,1-16-110
+259,Romsk kultur,1-16-110
+260,Musicerande och musikskapande,1-17-115
+261,Musikens verktyg,1-17-115
+262,Musikens sammanhang och funktioner,1-17-115
+263,Musicerande och musikskapande,1-17-116
+264,Musikens verktyg,1-17-116
+265,Musikens sammanhang och funktioner,1-17-116
+266,Musicerande och musikskapande,1-17-117
+267,Musikens verktyg,1-17-117
+268,Musikens sammanhang och funktioner,1-17-117
+269,Att leva tillsammans,1-18-120
+270,Att leva i närområdet,1-18-120
+271,Att leva i världen,1-18-120
+272,Att undersöka verkligheten,1-18-120
+273,Religioner och andra livsåskådningar,1-18-121
+274,Religion och samhälle,1-18-121
+275,Etik och livsfrågor,1-18-121
+276,Religioner och andra livsåskådningar,1-18-122
+277,Religion och samhälle,1-18-122
+278,Etik och livsfrågor,1-18-122
+279,Att leva tillsammans,1-19-126
+280,Att leva i närområdet,1-19-126
+281,Att leva i världen,1-19-126
+282,Att undersöka verkligheten,1-19-126
+283,Individer och gemenskaper,1-19-127
+284,Samhällsresurser och fördelning,1-19-127
+285,Beslutsfattande och politiska idéer,1-19-127
+286,Rättigheter och rättsskipning,1-19-127
+287,Information och kommunikation,1-19-127
+288,Granskning av samhällsfrågor,1-19-127
+289,Individer och gemenskaper,1-19-128
+290,Samhällsresurser och fördelning,1-19-128
+291,Beslutsfattande och politiska idéer,1-19-128
+292,Rättigheter och rättsskipning,1-19-128
+293,Information och kommunikation,1-19-128
+294,Granskning av samhällsfrågor,1-19-128
+295,"Slöjdens material, verktyg och hantverkstekniker",1-20-132
+296,Slöjdens arbetsprocesser,1-20-132
+297,Slöjdens uttryck och betydelse för hållbar utveckling,1-20-132
+298,"Slöjdens material, verktyg och hantverkstekniker",1-20-133
+299,Slöjdens arbetsprocesser,1-20-133
+300,Slöjdens uttryck och betydelse för hållbar utveckling,1-20-133
+301,"Slöjdens material, verktyg och hantverkstekniker",1-20-134
+302,Slöjdens arbetsprocesser,1-20-134
+303,Slöjdens uttryck och betydelse för hållbar utveckling,1-20-134
+304,Läsa och skriva,1-21-137
+305,"Tala, lyssna och samtala",1-21-137
+306,Texter,1-21-137
+307,Språkbruk,1-21-137
+308,Informationssökning och källkritik,1-21-137
+309,Läsa och skriva,1-21-138
+310,"Tala, lyssna och samtala",1-21-138
+311,Texter,1-21-138
+312,Språkbruk,1-21-138
+313,Informationssökning och källkritik,1-21-138
+314,Läsa och skriva,1-21-139
+315,"Tala, lyssna och samtala",1-21-139
+316,Texter,1-21-139
+317,Språkbruk,1-21-139
+318,Informationssökning och källkritik,1-21-139
+319,Läsa och skriva,1-22-144
+320,"Tala, lyssna och samtala",1-22-144
+321,Texter,1-22-144
+322,Språkbruk,1-22-144
+323,Informationssökning och källkritik,1-22-144
+324,Läsa och skriva,1-22-145
+325,"Tala, lyssna och samtala",1-22-145
+326,Texter,1-22-145
+327,Språkbruk,1-22-145
+328,Informationssökning och källkritik,1-22-145
+329,Läsa och skriva,1-22-146
+330,"Tala, lyssna och samtala",1-22-146
+331,Texter,1-22-146
+332,Språkbruk,1-22-146
+333,Informationssökning och källkritik,1-22-146
+334,Kommunikationens innehåll,1-23-151
+335,Avläsa – reception,1-23-151
+336,Teckna och samtala – produktion och interaktion,1-23-151
+337,Kommunikationens innehåll,1-23-152
+338,Avläsa – reception,1-23-152
+339,Teckna och samtala – produktion och interaktion,1-23-152
+340,Kommunikationens innehåll,1-23-153
+341,Avläsa – reception,1-23-153
+342,Teckna och samtala – produktion och interaktion,1-23-153
+343,"Teknik, människa, samhälle och miljö",1-24-158
+344,Tekniska lösningar,1-24-158
+345,Arbetsmetoder för utveckling av tekniska lösningar,1-24-158
+346,"Teknik, människa, samhälle och miljö",1-24-159
+347,Tekniska lösningar,1-24-159
+348,Arbetsmetoder för utveckling av tekniska lösningar,1-24-159
+349,"Teknik, människa, samhälle och miljö",1-24-160
+350,Tekniska lösningar,1-24-160
+351,Arbetsmetoder för utveckling av tekniska lösningar,1-24-160
+357,Default Subsection,1-25-163
+353,Klassisk balett,1-25-163
+354,Modern nutida dans,1-25-163
+355,Dansteknisk breddning,1-25-163
+358,Improvisation,1-25-163
+359,Scenisk verksamhet,1-25-163
+365,Default Subsection,1-25-164
+361,Klassisk balett,1-25-164
+362,Modern nutida dans,1-25-164
+363,Dansteknisk breddning,1-25-164
+366,Improvisation,1-25-164
+367,Repertoar och scenisk verksamhet,1-25-164
+368,Religion och tänkande,1-26-167
+369,Judisk historia,1-26-167
+370,Judiska kulturer och identiteter,1-26-167
+371,Begrepp och källor,1-26-167

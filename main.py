@@ -135,36 +135,36 @@ for url in urls:
         central_requirement_id_current, foreign_id_requirement = central_requirement_data[central_requirement]
 
 # Create and write to CSV files
-with open('subject_data.csv', 'w', newline='') as file:
+with open('subjects_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "subject", "school_id"])
+  writer.writerow(["id", "subject", "foreign_id_schools"])
   for key, value in subject_data.items():
     writer.writerow([value[0], key, value[1]])
 
-with open('grade_data.csv', 'w', newline='') as file:
+with open('grades_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "grade", "foreign_id_subject"])
+  writer.writerow(["id", "grade", "foreign_id_subjects"])
   for key, value in grade_data.items():
     grade = key.split(" - ")[0].strip()
     writer.writerow([value[0], grade, value[1]])
 
-with open('subsection_data.csv', 'w', newline='') as file:
+with open('subsections_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "subsection", "foreign_id_grade"])
+  writer.writerow(["id", "subsection", "foreign_id_grades"])
   for key, value in subsection_data.items():
     subsection = key.split(" - ")[0].strip()
     writer.writerow([value[0], subsection, value[1]])
 
-with open('central_content_data.csv', 'w', newline='') as file:
+with open('central_contents_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
   writer.writerow(["id", "central_content", "foreign_id_subsections"])
   for key, value in central_content_data.items():
     central_content = key.split(" - ")[0].strip()
     writer.writerow([value[0], central_content, value[1]])
 
-with open('central_requirement_data.csv', 'w', newline='') as file:
+with open('central_requirements_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "central_requirement", "foreign_id_grade"])
+  writer.writerow(["id", "central_requirement", "foreign_id_grades"])
   for key, value in central_requirement_data.items():
     central_requirement = key.split(" - ")[0].strip()
     writer.writerow([value[0], central_requirement, value[1]])
