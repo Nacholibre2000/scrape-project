@@ -137,34 +137,34 @@ for url in urls:
 # Create and write to CSV files
 with open('subjects_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "subject", "foreign_id_schools"])
+  writer.writerow(["id", "subject", "foreign_id_school"])
   for key, value in subject_data.items():
     writer.writerow([value[0], key, value[1]])
 
 with open('grades_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "grade", "foreign_id_subjects"])
+  writer.writerow(["id", "grade", "foreign_id_subject"])
   for key, value in grade_data.items():
     grade = key.split(" - ")[0].strip()
     writer.writerow([value[0], grade, value[1]])
 
 with open('subsections_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "subsection", "foreign_id_grades"])
+  writer.writerow(["id", "subsection", "foreign_id_grade"])
   for key, value in subsection_data.items():
     subsection = key.split(" - ")[0].strip()
     writer.writerow([value[0], subsection, value[1]])
 
 with open('central_contents_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "central_content", "foreign_id_subsections"])
+  writer.writerow(["id", "central_content", "foreign_id_subsection"])
   for key, value in central_content_data.items():
     central_content = key.split(" - ")[0].strip()
     writer.writerow([value[0], central_content, value[1]])
 
 with open('central_requirements_data.csv', 'w', newline='') as file:
   writer = csv.writer(file)
-  writer.writerow(["id", "central_requirement", "foreign_id_grades"])
+  writer.writerow(["id", "central_requirement", "foreign_id_grade"])
   for key, value in central_requirement_data.items():
     central_requirement = key.split(" - ")[0].strip()
     writer.writerow([value[0], central_requirement, value[1]])
